@@ -1,0 +1,122 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Welcome to smoothie’s documentation! &#8212; smoothie 0.1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-smoothie-s-documentation">
+<h1>Welcome to smoothie’s documentation!<a class="headerlink" href="#welcome-to-smoothie-s-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-loess"></span><dl class="function">
+<dt id="loess.bisquare">
+<code class="descclassname">loess.</code><code class="descname">bisquare</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/loess.html#bisquare"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#loess.bisquare" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bisquare weight function <span class="math">\(w(x)=(1-x^2)^2\)</span></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="loess.loess">
+<code class="descclassname">loess.</code><code class="descname">loess</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>fraction=0.6666666666666666</em>, <em>degree=2</em>, <em>weight_function=&lt;function bisquare&gt;</em>, <em>iterations=3</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/loess.html#loess"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#loess.loess" title="Permalink to this definition">¶</a></dt>
+<dd><p>LOESS – LOcal regrESSion scatterplot smoothing, according to Cleveland (1979)</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="loess.tricube">
+<code class="descclassname">loess.</code><code class="descname">tricube</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/loess.html#tricube"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#loess.tricube" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tricube weight function <span class="math">\(w(x)=(1-|x|^3)^3\)</span></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="loess.weighted_less_squares">
+<code class="descclassname">loess.</code><code class="descname">weighted_less_squares</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>weights</em>, <em>degree</em>, <em>point</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/loess.html#weighted_less_squares"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#loess.weighted_less_squares" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate weighted less squares approximation in given point</p>
+</dd></dl>
+
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2018, Vova Abdrakhmanov.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
